@@ -9,6 +9,8 @@ module.exports = withModuleFederationPlugin({
 
   exposes: {
     "./Routes": "./src/app/remote-entry/entry/entry.routes.ts",
+    "./FilterComponent":
+      "./src/app/remote-entry/entry/filter/filter.component.ts",
   },
 
   shared: {
